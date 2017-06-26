@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HumanResourcesV2017.exe" version="1.0.0.31" publicKeyToken="d467f50d1032f871" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="icon-hrm2014.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HumanResourcesV2017" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="HumanResourcesV2017.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AESm.dll" size="14848">
+      <assemblyIdentity name="AESm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hFJpLaw1HjGc7VbK1NzzYppONWWiUz+9Zcr/1i5HYCE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoUpdater.NET.dll" size="165376">
+      <assemblyIdentity name="AutoUpdater.NET" version="1.4.2.0" publicKeyToken="942F95247E354701" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pJDYwmoOXF1ShNbZlN7PvvE82rT17n3+ME7+z3WQFlY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="da\AutoUpdater.NET.resources.dll" size="7168">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.2.0" publicKeyToken="942F95247E354701" language="da" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wkXIYhMP1e5UZ9o++Hs1eux3mI7SuQ8mKymI3t0jh5A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\AutoUpdater.NET.resources.dll" size="7680">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.2.0" publicKeyToken="942F95247E354701" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kZvlU8A39NksFq0RuYU19Om8/YuiLJBp3Mc4JWYr/p8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\AutoUpdater.NET.resources.dll" size="7680">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.2.0" publicKeyToken="942F95247E354701" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Wqx53Xdh2+o5tvoX8pOqM4+AzvGbWPg7JmrUQxjRin4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fr\AutoUpdater.NET.resources.dll" size="7680">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.2.0" publicKeyToken="942F95247E354701" language="fr" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YSD2hWRCD7HjP1RJRWArjLC1IoF32x2OZqqkPVKVZeY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="it\AutoUpdater.NET.resources.dll" size="7680">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.2.0" publicKeyToken="942F95247E354701" language="it" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VAp1WWLWAdKYARNlHO6pkGWct31pzVkb13Jg0hXh8M0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nl\AutoUpdater.NET.resources.dll" size="7680">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.2.0" publicKeyToken="942F95247E354701" language="nl" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fTHVpmWcUrrQdjqgmwTIDAMSDbCw34sJNdgouc6vva4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pl\AutoUpdater.NET.resources.dll" size="7680">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.2.0" publicKeyToken="942F95247E354701" language="pl" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XLCmg+aKAZX8Pe3l3hDHVnlxtj9QDMbLYz+7kBLEuDo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\AutoUpdater.NET.resources.dll" size="8192">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.2.0" publicKeyToken="942F95247E354701" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JzfZl5aHrif//19mkiKtrkHakkU8RSLirURtwwbeZ3s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sv\AutoUpdater.NET.resources.dll" size="7680">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.2.0" publicKeyToken="942F95247E354701" language="sv" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DNz3UN/wSkFZGt1lNn2kCd2f+jZxHplNxQLQZbFmqQU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="tr\AutoUpdater.NET.resources.dll" size="6656">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.2.0" publicKeyToken="942F95247E354701" language="tr" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Il+4aH+tVCINM+NKXDlKPgp9hS/Y7r1S+wpcI20pq6o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HRMBLL.dll" size="898048">
+      <assemblyIdentity name="HRMBLL" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VZyhrOUHW3e0UU0XRucUuWVRhv+qn0VWl7qZFjJ0EHY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HRMDAL.dll" size="386560">
+      <assemblyIdentity name="HRMDAL" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KBqm92a5Gtv5epBMmYK8MJAhyVV9LHZhAAh516VYHGI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HRMUtil.dll" size="195072">
+      <assemblyIdentity name="HRMUtil" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VSlEb2UL6ub++Om7WR4M9JLoRLx4UMPxhLks0anjUUE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HumanResourcesV2017.exe" size="1498592">
+      <assemblyIdentity name="HumanResourcesV2017" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vNGoVSBBi3UHqLcVwgKyLlymzfk8gam3HzMAfxANHbU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.dll" size="3476992">
+      <assemblyIdentity name="Telerik.WinControls" version="2017.2.502.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ao+iQAWAFrtERiYd5TC2tI6eK7V1ZlKresI4iZ1B+KA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.GridView.dll" size="1654784">
+      <assemblyIdentity name="Telerik.WinControls.GridView" version="2017.2.502.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3QowNRkSocBzVK2gpO9vm/2wD7XXzIVMEf1vzyHWzrY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.Themes.Material.dll" size="197632">
+      <assemblyIdentity name="Telerik.WinControls.Themes.Material" version="2017.2.502.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YhvC0UUix+J7eA717+q/ifFMxZNfIFfl212ckVVDBKQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.UI.dll" size="4888064">
+      <assemblyIdentity name="Telerik.WinControls.UI" version="2017.2.502.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ee7ZeI5RULYwpWTZI7ux5Qr0BuKWeiOkztlezIZ0aDY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TelerikCommon.dll" size="343040">
+      <assemblyIdentity name="TelerikCommon" version="2017.2.502.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yebfjglExvnOcTpDfXtG2CYYhlGU6Ud+ThZtJ7J86b4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="HumanResourcesV2017.exe.config" size="4764">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ln26D7ZtsGkE+/YJRMPQ8QTz7NSLSjHd6jim6yZy1fk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon-hrm2014.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AenVFjbtnV6i5fvqzCWL03a41kEv15q/UYrdH1wHmEA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-OT3V8CE\jaket" issuerKeyHash="964c62ac70b8ea82bcf10c82c796c50b5a0474d2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VriFY+dy5cp8grCQLow/L6VWUklZspu2HhYZvkuXAhQ=</DigestValue></Reference></SignedInfo><SignatureValue>dMT99tPIXqe+ExMQ5k3pBuDiGciWi9V0nJwVVMGUWT96jcF/PmB2q7ytrRF2I4n+bFKTIwizPlF3jI6UKqJW81c9wanKHMPipgzwGImkY9dz/7nWHrRmsbBl6m7NbtWG6HI4qkUFNNN+HgfiMT1z41TUBGC87X4hgYybHOGcXM0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>866lTP5EKimsVCwZn1vD26pa2Ik77VwlrXJxlr3ya7pAd16fwir+9LiK7cl2CEaTOTTC/qQeu+j0uSAHSgvbgJ9ZQCSxAs7P6EYOS1MXpt8irwrJw+Pzcatg4MgrRwk3QXtdGJK+RfSOwi+4Hzj8k/OXWKFsPO/RmgQrDTQcZXk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1402974bbe19161eb69bb259495256a52f3f8c2e90b0827ccae572e76385b856" Description="" Url=""><as:assemblyIdentity name="HumanResourcesV2017.exe" version="1.0.0.31" publicKeyToken="d467f50d1032f871" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-OT3V8CE\jaket</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CyN5k2wJUWbUOzh+/hJmhRtCqqDa1RYmXIXzukp5e7k=</DigestValue></Reference></SignedInfo><SignatureValue>BcxUQjrnXH7tVyNhhF1f+94YlQl+ipUJer6EqrLzeRicO2GiOTG8XYMT2qeHrDi1ccUUwJapQYRzry5IhNnMEjAaHWYEsXyzr0QK/dzd6zM88oA/MJj9ifos41E3yefmV+ad2RBxNmejnEw2LAhruhUoNF+1dNDmiXVemWXTebg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>866lTP5EKimsVCwZn1vD26pa2Ik77VwlrXJxlr3ya7pAd16fwir+9LiK7cl2CEaTOTTC/qQeu+j0uSAHSgvbgJ9ZQCSxAs7P6EYOS1MXpt8irwrJw+Pzcatg4MgrRwk3QXtdGJK+RfSOwi+4Hzj8k/OXWKFsPO/RmgQrDTQcZXk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQX30iuoqj3bBMqD3N4MFK3DANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE8AVAAzAFYAOABDAEUAXABqAGEAawBlAHQwHhcNMTcwNjI2MDQyMzQyWhcNMTgwNjI2MTAyMzQyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE8AVAAzAFYAOABDAEUAXABqAGEAawBlAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPOupUz+RCoprFQsGZ9bw9uqWtiJO+1cJa1ycZa98mu6QHden8Iq/vS4iu3JdghGkzk0wv6kHrvo9LkgB0oL24CfWUAksQLOz+hGDktTF6bfIq8KycPj83GrYODIK0cJN0F7XRiSvkX0jsIvuB84/JPzl1ihbDzv0ZoEKw00HGV5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAojPbiN+Q62aexGCEVasULfPdzS9GMp4PkBhOwabrTMB+vyFxDBCoizx1sRdyPuLI887AYXy5wBVE3SHYSLf6qnNRjHcwbTg68TP9GeAFURBjx4zQepWxvyo4Gt8qE5NlwXsmzKCzLeE+vaDDyCIVAzmJzdqHvklWq+warU7wUIk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
