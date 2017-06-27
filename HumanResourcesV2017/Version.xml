@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
-	<version>1.0.0.5</version>
+	<version>1.0.0.6</version>
 	<url>https://raw.githubusercontent.com/sagsautoupdate/HumanResourcesV2017/master/HumanResourcesV2017/a.zip</url>
 	<changelog>https://raw.githubusercontent.com/sagsautoupdate/HumanResourcesV2017/master/HumanResourcesV2017/ChangeLogs.html</changelog>
 	<mandatory>true</mandatory>
