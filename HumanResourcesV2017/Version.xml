@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
-<<<<<<< HEAD
-	<version>1.0.0.2</version>
+	<version>1.0.0.4</version>
 	<url>https://raw.githubusercontent.com/sagsautoupdate/HumanResourcesV2017/master/HumanResourcesV2017/a.zip</url>
-=======
-	<version>1.0.0.3</version>
-	<url>https://raw.githubusercontent.com/sagsautoupdate/HumanResourcesV2017/master/HumanResourcesV2017/HumanResourcesV2017.exe</url>
->>>>>>> 65188abf19438cedfbede12fbd8d8d3e3f8d13a7
 	<changelog>https://raw.githubusercontent.com/sagsautoupdate/HumanResourcesV2017/master/HumanResourcesV2017/ChangeLogs.html</changelog>
 	<mandatory>false</mandatory>
+	<address1>C:\ProgramData\HumanResourcesV2017</address1>
+	<address2>C:\ProgramData\HumanResourcesV2017</address2>
 </item>
