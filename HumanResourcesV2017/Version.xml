@@ -3,7 +3,7 @@
 	<version>1.0.0.5</version>
 	<url>https://raw.githubusercontent.com/sagsautoupdate/HumanResourcesV2017/master/HumanResourcesV2017/a.zip</url>
 	<changelog>https://raw.githubusercontent.com/sagsautoupdate/HumanResourcesV2017/master/HumanResourcesV2017/ChangeLogs.html</changelog>
-	<mandatory>false</mandatory>
+	<mandatory>true</mandatory>
 	<address1>C:\ProgramData\HumanResourcesV2017</address1>
 	<address2>C:\ProgramData\HumanResourcesV2017</address2>
 </item>
